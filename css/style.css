@@ -8746,4 +8746,30 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
 
+    .meu-botao {
+      background-color: #fcf8e3;
+      border: none;
+      color: #000000;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      animation: piscar 1s infinite;
+    }
+    
+    @keyframes piscar {
+      0% {
+        opacity: 2;
+      }
+      50% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 3;
+      }
+    }
+
     
